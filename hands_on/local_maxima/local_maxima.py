@@ -1,5 +1,13 @@
 
 def local_maxima(x):
+    """Find local maxima of x.
+
+    Input arguments:
+    x -- 1D list of real numbers
+      Output:
+    idx -- list of indices of the local maxima in x
+    """
+
     idx = []
     num1 = num2 = float('-inf')
     idx1 = idx2 = None
